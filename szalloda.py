@@ -104,11 +104,11 @@ def sys_initialization():
     szalloda_kek_hexagon.hozzaadas_szoba(EgyagyasSzoba(1))
     szalloda_kek_hexagon.hozzaadas_szoba(KetagyasSzoba(3))
     szalloda_kek_hexagon.hozzaadas_szoba(KetagyasSzoba(6))
-    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-06-22', "%Y-%m-%d").date(),3,'Morty'),True)
-    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-07-12', "%Y-%m-%d").date(),1,'Jonas'),True)
-    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-08-18', "%Y-%m-%d").date(),3,'Silvan'),True)
-    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-06-22', "%Y-%m-%d").date(),6,'Otto'),True)
-    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-08-17', "%Y-%m-%d").date(),6,'Jonas'),True)
+    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-06-22', "%Y-%m-%d").date(),3,'Bulgakov'),True)
+    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-07-12', "%Y-%m-%d").date(),1,'Lovecraft'),True)
+    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-08-18', "%Y-%m-%d").date(),3,'Herbert'),True)
+    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-06-22', "%Y-%m-%d").date(),6,'Vonnegut'),True)
+    szalloda_kek_hexagon.hozzaadas_foglalas(Foglalas(datetime.strptime('2024-08-17', "%Y-%m-%d").date(),6,'Marquez'),True)
     return szalloda_kek_hexagon
 
 szalloda_kek_hexagon = sys_initialization()
