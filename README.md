@@ -1,0 +1,1 @@
+# szalloda_oop_project
